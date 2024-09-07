@@ -1,0 +1,48 @@
+table {
+    width: 100%;
+    border-collapse: collapse; /* Remove espaçamento entre bordas */
+    margin: 20px 0; /* Adiciona margem ao redor da tabela */
+}
+
+/* Estilo para o cabeçalho da tabela */
+thead {
+    background-color: #f4f4f4; /* Cor de fundo para o cabeçalho */
+}
+
+/* Estilo para as células do cabeçalho */
+th {
+    padding: 12px 15px; /* Adiciona espaçamento interno */
+    text-align: left; /* Alinha o texto à esquerda */
+    border-bottom: 2px solid #ddd; /* Adiciona uma borda inferior ao cabeçalho */
+    color: #333; /* Cor do texto do cabeçalho */
+}
+
+/* Estilo para as células do corpo da tabela */
+td {
+    padding: 12px 15px; /* Adiciona espaçamento interno */
+    border-bottom: 1px solid #ddd; /* Adiciona uma borda inferior às células */
+    color: #666; /* Cor do texto das células */
+}
+
+/* Estilo para a linha da tabela */
+tr:nth-child(even) {
+    background-color: #f9f9f9; /* Cor de fundo alternada para linhas pares */
+}
+
+/* Estilo para a linha da tabela ao passar o mouse */
+tr:hover {
+    background-color: #e0e0e0; /* Cor de fundo ao passar o mouse */
+}
+
+/* Estilo para a borda da tabela */
+table, th, td {
+    border: 1px solid #ddd; /* Adiciona uma borda leve à tabela e células */
+}
+
+/* Estilo para a tabela quando ela está em um contêiner com uma borda */
+.table-container {
+    border: 1px solid #ddd; /* Borda ao redor do contêiner da tabela */
+    border-radius: 5px; /* Arredonda os cantos da borda */
+    overflow: hidden; /* Garante que o conteúdo não exceda o contêiner */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Adiciona uma sombra ao redor do contêiner */
+}
